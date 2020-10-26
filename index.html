@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css" />
@@ -8,44 +9,57 @@
 </head>
 
 <body>
-<div class="container">
-    <header>
-        <nav class="navbar">
-            <div class="left-part">
-                <a href="#" id="about">About</a>
-                <a href="#" id="store">Store</a>
-            </div>
-            <div class="right-part">
-                <a href="#" id="gmail">Gmail</a>
-                <a href="#" id="images">Images</a>
-                <img src="https://user-images.githubusercontent.com/71986056/96714397-62506e00-13a2-11eb-826d-cdfbdaff9206.png" id="show-apps" alt="show-apps-button">
-                <button type="button" id="sign-in">Sign In</button>
-            </div>
-        </nav>
-    </header>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <div class="right-part">
+                    <a href="#" id="gmail">Gmail</a>
+                    <a href="#" id="images">Images</a>
+                    <img src="https://user-images.githubusercontent.com/71986056/96714397-62506e00-13a2-11eb-826d-cdfbdaff9206.png" id="show-apps" alt="show-apps-button">
+                    <button type="button" id="sign-in">Sign In</button>
+                </div>
+            </nav>
+        </header>
 
-    <div class="image">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" id="logo" alt="google-logo">
+        <div class="image">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" id="logo" alt="google-logo">
+        </div>
+
+        <div class="search-bar">
+            <i class="fa fa-search"></i>
+            <input type="text" id="search">
+            <i class="fa fa-keyboard-o" aria-hidden="true"></i>
+            <button style="border: none; background-color: white;"><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/2/22/Google_microphone_logo.png" id="microphone"
+                    alt="google-microphone"></button>
+        </div>
+
+        <div class="buttons">
+            <button type="button" id="google-search">Google Search</button>
+            <button type="button" id="feeling-lucky">I'm Feeling Lucky</button>
+        </div>
+
+        <div class="language">
+            <p>Google offered in:</p>
+            <a href="#" id="norsk">Português (Portugal)</a>
+        </div>
+
+        <footer>
+            <nav class="footer">
+                <div class="left-part">
+                    <a href="#" id="about">About</a>
+                    <a href="#" id="advertising">Advertising</a>
+                    <a href="#" id="business">Business</a>
+                    <a href="#" id="how-search-works">How Search works</a>
+                </div>
+                <div class="right-part">
+                    <a href="#" id="privacy">Privacy</a>
+                    <a href="#" id="terms">Terms</a>
+                    <a href="#" id="settings">Settings</a>
+                </div>
+            </nav>
+        </footer>
     </div>
-
-    <div class="search-bar">
-        <i class="fa fa-search"></i>
-        <input type="text" id="search">
-        <i class="fa fa-keyboard-o" aria-hidden="true"></i>
-        <button style="border: none; background-color: white;"><img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Google_microphone_logo.png" id="microphone" alt="google-microphone"></button>
-    </div>
-
-    <div class="buttons">
-      <button type="button" id="google-search">Google Search</button>
-      <button type="button" id="feeling-lucky">I'm Feeling Lucky</button>
-    </div>
-
-    <div class="language">
-        <p>Google offered in:</p>
-        <a href="#" id="norsk">Portuguese</a>
-    </div>
-
-</div>
-
 </body>
+
 </html>
